@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie Uma Conta</title>
+    <link rel="stylesheet" href="css/cadastrostyle.css">
+</head>
+<body>
+        <header>
+            <a href="homepage.html"><img src="images/acucena-logo.png" alt="Logo em preto e branco com o nome açucena" width="120" height="120"></a>
+        </header>
+
+        <main>
+            <form action="http://localhost:5500/teste" method="post">
+                <section class="formulario">
+                    <div>
+                        <h2>Dados Pessoais</h2>
+                        <div>
+                            <label for="cpf"></label>
+                            <input class="campo-formulario" type="text" name="cpf" id="cpf" placeholder="CPF" required>
+                        </div>
+                        <div>
+                            <label for="nome"></label>
+                            <input class="campo-formulario" type="text" name="nome" id="nome" placeholder="Nome Completo" required>
+                        </div>
+                        <div>
+                            <label for="telefone"></label>
+                            <input class="campo-formulario" type="text" name="telefone" id="telefone" placeholder="Telefone" required>
+                        </div>
+                        <div>
+                            <label for="nascimento"></label>
+                            <input class="campo-formulario" type="date" name="nascimento" id="nascimento" placeholder="Data de Nascimento" required>
+                        </div>
+                        <div>
+                            <label for="email"></label>
+                            <input class="campo-formulario" type="email" name="email" id="email" placeholder="E-mail" required>
+                        </div>
+                        <div>
+                            <label for="senha"></label>
+                            <input class="campo-formulario" type="password" name="senha" id="senha" placeholder="senha" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2>Endereço</h2>
+                        <div>
+                            <label for="rua"></label>
+                            <input class="campo-formulario" type="text" name="rua" id="rua" placeholder="Rua" required>
+                        </div>
+                        <div>
+                            <label for="bairro"></label>
+                            <input class="campo-formulario" type="text" name="bairro" id="bairro" placeholder="Bairro" required>
+                        </div>
+                        <div>
+                            <label for="cidade"></label>
+                            <input class="campo-formulario" type="text" name="cidade" id="cidade" placeholder="Cidade" required>
+                        </div>
+                        <div>
+                            <label for="cep"></label>
+                            <input class="campo-formulario" type="number" name="cep" id="cep" placeholder="CEP" required>
+                        </div>
+                        <div>
+                            <label for="complemento"></label>
+                            <input class="campo-formulario" type="text" name="complemento" id="complemento" placeholder="complemento" >
+                        </div>
+                    </div>
+                </section>
+                <div class="div-botao-formulario">
+                    <button class="botao-formulario" type="submit">Cadastra-se</button>
+                </div>
+            </form>
+            
+        </main>
+        
+        <footer>
+            <img class="logo-footer" src="images/acucena-logo-marrom.png" alt="Logomarca marrom redonda com o nome Açucena dentro" width="100" height="100">
+            <nav class="menu-footer">
+                <h4 class="titulo-footer">Entre em contato:</h4>
+                <div class="contato">
+                    <li><a class="item-menu-footer" href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&ifkv=AYZoVhcsdREEWcVpzs9Sb1TxywM9F34r1bm3f3YhVI5VtjDKKeFI0CNKm6e7nW09Kwv9CjZitVVAlQ&osid=1&passive=1209600&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-351686477%3A1696012740469109&theme=glif">E-mail</a></li>
+                    <li></li><a class="item-menu-footer" href="https://web.whatsapp.com/">WhatsApp (Segunda à Sexta - 9h às 17h, exceto feriados)</a></li>
+                </div>
+                <h4 class="titulo-footer">Dúvidas:</h4>
+                <div class="duvidas">
+                    <li><a class="item-menu-footer" href="">Tabela de medidas</a></li>
+                    <li><a class="item-menu-footer" href="https://ypedia.com.br/roupas-de-croche/">Cuidados com as peças</a></li>
+                </div>
+                <a class="item-instagram" href="https://www.instagram.com/">Fique por dentro das novidades, nos siga no Instagram <img src="images/instagram-logo.png" alt="Logo em preto e branco do instagram" width="45" height="45"></a>
+            </nav>
+        </footer>
+</body>
+</html>

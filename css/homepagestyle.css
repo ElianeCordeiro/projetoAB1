@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@600&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: #F0ECE9 
+}
+
+li{
+    list-style-type: none;
+}
+
+
+/*Section Header*/
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #763E0B;
+
+}
+
+.logo-header{
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.menu-header{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.item-menu-header{
+    display: flex;
+    font-family: 'Halant', serif;;
+    color: #000000;
+    font-weight: 400;
+    font-size: 23px;
+    background-color: #F6F3F0;
+    padding: 5px 15px;
+    border-radius: 10%;
+    width: 150px;
+    justify-content: center;
+    box-shadow: 6px 3px 3px black;
+}
+
+/*Section Main*/
+
+.produtos-main{
+    display: flex;
+    margin: 65px;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.item-produtos-main{
+    box-shadow: 6px 3px 3px #D9D9D9;
+}
+
+.quem-somos-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;                                    
+
+}
+.titulo-quem-somos{
+    text-align: center;
+    color: #763E0B;
+    font-family: 'Righteous', cursive;
+    border-bottom: 0.4px #000000 solid;
+    padding: 5px;
+}
+
+.quem-somos{
+    display: flex;
+    margin: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Righteous', cursive;
+}
+
+.paragrafos{
+    width: 580px;
+}
+
+.imagem-quem-somos{
+    width: 150px;
+    height: 150px;
+    margin-left: 70px;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #D9D9D9;
+    border-top: 0.4px #000000 solid;
+}
+
+.logo-footer{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.menu-footer{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-menu-footer{
+    padding: 5px;
+    color: #000000;
+    font-family: 'Habibi', serif;
+    width: 180px;
+    text-decoration: underline;
+}
+
+.titulo-footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+}
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-instagram{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+    color: #000000;
+    width: 250px;
+    background-color: #FCF9F7;
+    border-radius: 7%;
+    padding: 15px;
+}
+

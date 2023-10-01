@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@600&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #ffffff;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*Header*/
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F3F0;
+}
+
+.logo-header-login{
+    display: flex;
+    border-radius: 50%;
+}
+
+/*Main*/
+main{
+    height: 490px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.login-main{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.cadastro-main{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+}
+
+.titulo-main{
+    font-family: 'Righteous', cursive;
+    margin: 30px;
+}
+
+.ancora-main{
+    font-family: 'Righteous', cursive;
+    color: #763E0B;
+    background-color: #F6F3F0;
+    box-shadow: 5px 3px 3px #F6F3F0;
+    border-radius: 10%;
+    padding: 30px 45px;
+    text-align: center;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #D9D9D9;
+    border-top: 0.4px #000000 solid;
+}
+
+.logo-footer{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.menu-footer{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-menu-footer{
+    padding: 5px;
+    color: #000000;
+    font-family: 'Habibi', serif;
+    width: 180px;
+    text-decoration: underline;
+}
+
+.titulo-footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+}
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-instagram{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+    color: #000000;
+    width: 250px;
+    background-color: #FCF9F7;
+    border-radius: 7%;
+    padding: 15px;
+}

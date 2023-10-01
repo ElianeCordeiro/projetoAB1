@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@600&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #ffffff;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*Header*/
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F3F0;
+}
+
+.logo-header-login{
+    display: flex;
+    border-radius: 50%;
+}
+
+/*Main*/
+
+.sale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Righteous', cursive;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.filtro{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin: 40px;
+    padding: 17px;
+    align-items: center;
+}
+
+.titulo-filtro{
+    color: #000000;
+    border: #F6F3F0;
+    background-color: #F6F3F0;
+    border-radius: 10%;
+    padding: 10px;
+    width: 100px;
+    box-shadow: 6px 3px 3px #D9D9D9;
+}
+
+.item-filtro{
+    display: flex;
+    font-family: 'Habibi', serif;
+    color: #000000;
+    border: #F6F3F0;
+    background-color: #F6F3F0;
+    border-radius: 10%;
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    box-shadow: 6px 3px 3px #D9D9D9;
+}
+
+.promocoes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.item-lista-promocoes{
+    margin: 40px;
+}
+
+.image-item-promocoes{
+    box-shadow: 6px 3px 3px #D9D9D9;
+}
+
+.botao-ver-promocoes{
+    display: flex;
+    width: fit-content;
+    justify-content: space-evenly;
+    margin: 20px;
+    background-color: #F6F3F0;
+    border: #F6F3F0;
+    padding: 20px;
+    font-family: 'Righteous', cursive;
+    color: #393938;
+    border-radius: 10%;
+    box-shadow: 6px 3px 3px #D9D9D9;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #D9D9D9;
+    border-top: 0.4px #000000 solid;
+}
+
+.logo-footer{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.menu-footer{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-menu-footer{
+    padding: 5px;
+    color: #000000;
+    font-family: 'Habibi', serif;
+    width: 180px;
+    text-decoration: underline;
+}
+
+.titulo-footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+}
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-instagram{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+    color: #000000;
+    width: 250px;
+    background-color: #FCF9F7;
+    border-radius: 7%;
+    padding: 15px;
+}

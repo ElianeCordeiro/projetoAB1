@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Halant:wght@600&family=Righteous&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color: #ffffff;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*Header*/
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #F6F3F0;
+}
+
+.logo-header-login{
+    display: flex;
+    border-radius: 50%;
+}
+
+/*Main*/
+main{
+    height: 490px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.campo-formulario{
+    display: flex;
+    background-color: #F6F3F0;
+    width: 150px;
+    margin: 20px;
+    border: #F6F3F0;
+    color: #000000;
+    font-family: 'Righteous', cursive;
+    padding: 10px;
+    border-radius: 10%;
+}
+
+.botao-formulario{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F6F3F0;
+    width: 200px;
+    border: #F6F3F0;
+    padding: 15px;
+    border-radius: 10%;
+    color: #763E0B;
+    font-family: 'Righteous', cursive;
+}
+
+/*Footer*/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #D9D9D9;
+    border-top: 0.4px #000000 solid;
+}
+
+.logo-footer{
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.menu-footer{
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.contato{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-menu-footer{
+    padding: 5px;
+    color: #000000;
+    font-family: 'Habibi', serif;
+    width: 180px;
+    text-decoration: underline;
+}
+
+.titulo-footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+}
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item-instagram{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Righteous', cursive;
+    color: #000000;
+    width: 250px;
+    background-color: #FCF9F7;
+    border-radius: 7%;
+    padding: 15px;
+}
